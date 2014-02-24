@@ -1,0 +1,173 @@
+/* DEBUG TODO REMOVE */
+/*
+*
+{
+	border-style: solid;
+	border-width: 1px;
+	border-color: green;
+}*/
+
+body
+{
+
+	background-image:url('../img/sitebg.jpg');
+	
+	font-size: 16px;
+	font-family: helvetica, arial, sans-serif;
+
+	position:absolute;
+	top: 80px;
+	left:30px;
+	right:50px;
+
+}
+
+body a:link {color:#777; text-decoration:none;}
+body a:visited {color:#777; text-decoration:none;}
+body a:hover {color:#B08010; text-decoration:none;}
+body a:active {color:#FF9900;}
+
+img.avatar {
+	width:100px;
+	height:100px;
+	border:solid;
+	border-color:#777;
+	border-width:1px;
+}
+
+img.smallavatar {
+	width:25px;
+	height:25px;
+}
+
+nav#main { /* Used for website nav links */
+	font-family: helvetica, arial, sans-serif;
+
+	height:80px;	
+	overflow: auto;
+
+	background: #e8e8e8;
+	border:solid;
+	border-color:#eef;/*77f;*/
+
+	position: fixed;
+	
+	top:0px;
+	left:0px;
+	right:0px;
+
+	padding-left:400px;
+
+
+	text-shadow: #ffffff 0px 0px 5px,
+		 #ffffff 0px 0px 7px,
+		 #ffffff 0px 0px 9px,
+		 #ffffff 0px 0px 11px;
+
+	background-image: url('../img/banner.jpg');
+	background-repeat:no-repeat;
+}
+
+nav#site{
+	max-height:40px;
+}
+
+nav#site > a{
+	font-size: 25px;
+	font-weight:bold;
+	padding-left:10px;
+	text-align:center;
+}
+
+nav#user{
+	margin-top:10px;
+	padding-left:30px;
+	max-height:40px;
+}
+
+nav#user > a { /* Used for user/logout links */
+	font-size: 18px;
+	font-weight:bold;
+	padding-right:15px;
+	text-align:center;
+}
+
+header /* Used for page headings */
+{
+	color: #B81;
+	font-size: 24px;
+	padding:10px;
+	text-align:center;	
+
+	text-shadow: #777 0px 0px 3px,
+		 #777 0px 0px 4px,
+		 #777 0px 0px 7px;
+}
+
+header h1{
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+footer /* For copyright info */
+{
+
+	position: absolute;
+	left:0;
+	right:0;
+
+	bottom: -70px;
+	padding: 10px;
+
+	
+	text-align: center;
+	font-size:10px;
+	color:#222222;
+}
+
+section /* Each news article is contained in its own section */
+{
+	
+	margin: 10px;
+	padding: 20px;
+	padding-top:5px;
+
+	border:solid;
+	border-color:#BBB;
+}
+
+section h1{
+	color:#663333;
+	font-size:20px;
+	font-family: helvetica, arial, sans-serif;
+}
+
+section p{
+	margin:0.3em;
+	padding-left:3em;
+}
+
+section div.postdate{
+	margin-top:3em;
+	text-align:right;
+	font-size:10px;
+}
+
+@media print {
+	
+	header, nav, footer {
+		display: none;
+	}
+
+	section {
+		border: none;
+		padding:0px;
+		margin: 0px;
+	}
+	
+	section * {
+		margin:0;
+		padding:0;
+		text-align:left;
+	}
+
+}

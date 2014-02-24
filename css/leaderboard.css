@@ -1,0 +1,87 @@
+h2 {
+ 	color: #AA9700;	
+	font-size:24px;
+	margin-top:40px;
+	margin-left:80px;
+	text-align:left;
+}
+
+nav#topnav{	
+	margin-left:50px;
+}
+
+nav#topnav form{
+	padding-left:10px;
+	display:inline;
+}
+
+nav#bottompageselect{
+	
+	position: absolute;
+	left: 0;
+	right: 0;
+
+	bottom: -10px;
+
+	text-align:center;
+}
+
+div#searcherror{
+
+	margin-left:50px;
+	color:red;
+}
+
+div#stats{
+
+	margin-left:50px;
+	padding-top:20px;
+	color:blue;
+}
+
+
+div.lbentries{ /* Used to hold every entry in the leaderboard */
+
+	float:left;
+	margin-top:-20px;
+	margin-left:50px;
+	margin-right:10px;
+	display:block;
+}
+
+div.lbentries table{
+	border:0px;
+	text-align:center;
+
+	margin-top:10px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+div.lbentry, div#sel-lbentry{ /* Used for an entry in the leaderboard */
+	min-width:200px;
+	min-height:150px;
+	margin: 10px;
+	float: left;
+	border:solid;
+	border-color: #AA9700;	
+
+}
+
+div#sel-lbentry{ /* Used for the highlighed (searched) user */
+	background:#DDB700;
+}
+
+@media print {
+
+	div.lbentries{
+		margin:0px;
+	}
+	
+	div.lbentry, div#sel-lbentry, div.lbentries table {
+		margin: 0px;
+		min-width:0px;
+	}
+
+}
+

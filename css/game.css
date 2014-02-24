@@ -1,0 +1,99 @@
+body{
+
+	background-image:url('../img/gamebg.jpg');
+}
+div#game{
+
+	padding-top:0px;
+	margin-top:0px;
+
+	border-style:solid;
+	border-color: #777;
+	text-align:center;
+	left:10px;
+	right:10px;
+	bottom:10px;
+}
+
+div#game p{
+	font-color:#777;
+	font-size:18px;
+}
+
+div#game input.button{
+
+	background:#DDD;
+	border:3px;
+	border-style:solid;
+	border-color:#555;
+}
+
+div#letters{
+	font-size:20px;
+	color:#777;
+}
+
+div.letter{
+	padding:0.3em;
+	display:inline;
+	font-size:50px;
+	color:#111;
+}
+
+div#inputarea{
+	margin-top:20px;
+	color:#777;
+}
+
+div#inputarea form{
+	display:inline;
+}
+
+div#score{
+	font-size:20px;
+	padding-top:10px;	
+	color:blue;
+}
+
+div#timer{
+	font-size:30px;
+	padding-top:10px;
+	display: inline;
+	color:red;
+}
+
+div#correctmsg{
+
+	min-height:2em;
+	font-size:20px;
+	padding-top:20px;
+	color:blue;
+
+}
+
+div#errormsg{
+
+	min-height:2em;
+	font-size:20px;
+	padding-top:20px;
+	color:red;
+}
+
+div#guessed{
+ 	color: #AA9700;
+	padding-bottom:3em;
+}
+
+div#guessed h2 {
+	margin-top:1em;
+	font-size:24px;
+ 	color: #AA9700;	
+}
+
+div#guessed li{
+	font-size:20px;
+	padding-left:1em;
+	float:left;
+	list-style-type:none;
+}
+

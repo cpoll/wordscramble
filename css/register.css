@@ -1,0 +1,75 @@
+
+
+form {
+	width:700px;
+	padding-bottom:10px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #AAA;
+	margin-top:100px;;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+h2 {
+	background-color: #e8e8e8;
+ 	color: #AA9700;	
+	height: 50px;
+	margin-top:0px;
+	padding-top:10px;
+	text-align:center;
+}
+
+label{
+	display:block;
+	width:200px;
+	font-size:20px;
+	margin-left:30px;
+}
+
+input {
+	display:inline;
+	margin-left:30px;
+	width:200px;
+}
+
+hr {
+	color: #EEE;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+img {
+	display:inline;
+	margin-top:10px;
+	margin-right:10px;
+}
+
+.submit {
+	background-color: lightblue;
+	width:150px;
+	height:50px;
+
+	font-size:16px;
+	border-color:blue;
+	border-style: solid;
+	
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.error {
+	color:red;
+	width:250px;
+	text-align:center;
+	display:inline;
+	
+}
+
+.avatar_radio {
+	margin-left:25px;
+	width:25px;	
+
+
+}

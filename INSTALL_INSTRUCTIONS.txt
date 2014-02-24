@@ -1,0 +1,24 @@
+Steps to hosting this website on your server:
+
+1. Modify lib/config.php
+		- Change the $DB_ variables to specify your psql database info.
+
+2. Modify lib/controller.php
+		- Change the $session_folder variable to specify your session storage
+			folder.
+
+3. Import db/schema.sql into your psql database.
+
+4. Run db/word_list_to_dict.php to add the wordlist used by the game to the
+	database (this may take up to 5 minutes):
+	Run:
+	php db/word_list_to_dict.php
+
+5. [OPTIONAL] Add test data to the database.
+	Run the following commands:
+	php db/generate_users.php
+	php db/generate_gamestats.php 
+
+6. Set proper permissions to all files.
+
+7. Remove the db folder or lock down its permissions.
